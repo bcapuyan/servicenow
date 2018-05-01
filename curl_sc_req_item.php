@@ -29,7 +29,7 @@ echo $str;
 $ch = curl_init ($str);
 #curl_setopt($ch, CURLOPT_HTTPHEADER, array('Accept: application/json, application/xmll','Content-Type: application/json, application/xml'));
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Accept: application/json','Content-Type: application/json'));
-curl_setopt($ch, CURLOPT_USERPWD, "svcSecurityTeamRestApi:S3cur1tyR3st!");
+curl_setopt($ch, CURLOPT_USERPWD, "user:pass");
 curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
 //curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch,CURLOPT_SSL_VERIFYPEER, false);
